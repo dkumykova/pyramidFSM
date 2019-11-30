@@ -161,7 +161,11 @@
     <ClInclude Include="..\Timer.h" />
     <ClInclude Include="..\Wall.h" />
     <ClInclude Include="State.h" />
+    <ClInclude Include="StateChase.h" />
+    <ClInclude Include="StateCower.h" />
     <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="StateSearch.h" />
+    <ClInclude Include="StateWander.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Ankh.cpp" />
@@ -174,7 +178,11 @@
     <ClCompile Include="..\Timer.cpp" />
     <ClCompile Include="..\Wall.cpp" />
     <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateChase.cpp" />
+    <ClCompile Include="StateCower.cpp" />
     <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="StateSearch.cpp" />
+    <ClCompile Include="StateWander.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

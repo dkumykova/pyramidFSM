@@ -48,6 +48,18 @@
     <ClInclude Include="StateMachine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="StateWander.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateChase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateCower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Ankh.cpp">
@@ -81,6 +93,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateWander.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateCower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateChase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateSearch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
